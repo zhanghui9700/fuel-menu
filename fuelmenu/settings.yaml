@@ -1,7 +1,7 @@
 HOSTNAME: "fuel"
 DNS_DOMAIN: "domain.tld"
 DNS_SEARCH: "domain.tld"
-DNS_UPSTREAM: "8.8.8.8"
+DNS_UPSTREAM: "114.114.114.114"
 NTP1: "0.fuel.pool.ntp.org"
 NTP2: "1.fuel.pool.ntp.org"
 NTP3: "2.fuel.pool.ntp.org"

@@ -164,7 +164,7 @@ class FuelSetup(object):
         self.screen.draw_screen(size, self.frame.render(size))
 
     def main(self):
-        text_header = (u"Fuel %s setup "
+        text_header = (u"xCloud %s setup "
                        u"Use Up/Down/Left/Right to navigate.  F8 exits. "
                        u"Remember to save your changes."
                        % self.version)

@@ -59,8 +59,8 @@ class dnsandhostname(urwid.WidgetWrap):
                              "value": hostname},
                 "DNS_UPSTREAM": {"label": "External DNS",
                                  "tooltip": "DNS server(s) (comma separated) \
-to handle DNS requests (example 8.8.8.8,8.8.4.4)",
-                                 "value": "8.8.8.8"},
+to handle DNS requests (example 114.114.114.114,8.8.4.4)",
+                                 "value": "114.114.114.114"},
                 "DNS_DOMAIN": {"label": "Domain",
                                "tooltip": "Domain suffix to user for all \
 nodes in your cluster",
@@ -70,7 +70,7 @@ nodes in your cluster",
 DNS (space separated)",
                                "value": domain},
                 "TEST_DNS": {"label": "Hostname to test DNS:",
-                             "value": "www.google.com",
+                             "value": "www.163.com",
                              "tooltip": "DNS record to resolve to see if DNS \
 is accessible"}
             }

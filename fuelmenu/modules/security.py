@@ -42,7 +42,7 @@ class security(urwid.WidgetWrap):
             SSH_NETWORK: {
                 "label": "Restrict SSH access on network ",
                 "tooltip": "Enter network address in CIDR format",
-                "value": ""
+                "value": "0.0.0.0/0"
             }
         }
         self.load()

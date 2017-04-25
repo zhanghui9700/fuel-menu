@@ -94,6 +94,7 @@ class bootstrapimg(urwid.WidgetWrap):
             BOOTSTRAP_SKIP_BUILD_KEY: {
                 "label": "Skip building bootstrap image",
                 "tooltip": "",
+                "value": True,
                 "type": WidgetType.CHECKBOX,
                 "callback": self.skip_build_callback},
             BOOTSTRAP_HTTP_PROXY_KEY: {
